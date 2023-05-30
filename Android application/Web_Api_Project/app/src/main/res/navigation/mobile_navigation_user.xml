@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation5"
+    app:startDestination="@id/addMealsFragment">
+    <fragment
+        android:id="@+id/addMealsFragment"
+        android:name="com.example.web_api_project.ui.meals.AddMealsFragment"
+        android:label="fragment_add_meals"
+        tools:layout="@layout/activity_add_meals" />
+    <fragment
+        android:id="@+id/mealsFragment"
+        android:name="com.example.web_api_project.ui.meals.MealsFragment"
+        android:label="fragment_meals"
+        tools:layout="@layout/activity_meals" >
+        <action
+            android:id="@+id/action_mealsFragment_to_addMealsFragment"
+            app:destination="@id/addMealsFragment" />
+        <action
+            android:id="@+id/action_mealsFragment_to_editMealsFragment"
+            app:destination="@id/editMealsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editMealsFragment"
+        android:name="com.example.web_api_project.ui.meals.EditMealsFragment"
+        android:label="fragment_edit_meals"
+        tools:layout="@layout/activity_edit_meals" />
+</navigation>

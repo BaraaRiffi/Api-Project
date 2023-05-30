@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context=".u">
+
+        <TextView
+            android:id="@+id/tvUpdateMeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="Edite Meals"
+            android:textColor="@color/PC"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edNameMeals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/ed_desgin"
+            android:ems="10"
+            android:hint="Meals name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateMeals" />
+
+        <EditText
+            android:id="@+id/edIngreMeals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ed_desgin"
+            android:ems="10"
+            android:hint="Meals Details"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edNameMeals" />
+
+
+        <ImageView
+            android:id="@+id/imgUpdate"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarUpdate"
+            app:srcCompat="@drawable/ic_upload" />
+
+        <EditText
+            android:id="@+id/edOriginUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ed_desgin"
+            android:ems="10"
+            android:hint="Meals Price"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edIngreMeals" />
+
+        <EditText
+            android:id="@+id/edQun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ed_desgin"
+            android:ems="10"
+            android:hint="Enter Quantity"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edOriginUpdate" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBarUpdate"
+            android:layout_width="241dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:theme="@style/RatingBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edQun"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="326dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/PC"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgUpdate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:progressTint="@color/PC"
+        />
+
+</FrameLayout>

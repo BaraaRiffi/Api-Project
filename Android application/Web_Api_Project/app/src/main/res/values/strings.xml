@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Riffi Restaurant</string>
+    <string name="eat_best_fast_food">Eat Best - Fast Food</string>
+    <string name="description">Try the best delicious meals through this application that was designed especially for you</string>
+    <string name="create_new_password">Create New Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">ٍSign in</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_name">Enter your full name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_a_pin_code_consisting_of_4_digits">Enter a PIN code (consisting of 4 digits)</string>
+    <string name="enter_date_of_barth">Enter date of barth</string>
+    <string name="login">Login</string>
+    <string name="please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_tv">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="did_you_forget_your_password">did you forget your password?</string>
+    <string name="click_here">Click here</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_email_and_pin_code">Enter email and PIN code (consisting of 4 digits) to reset your password</string>
+    <string name="enter_your_pin_code">Enter your PIN code</string>
+    <string name="continue_tv">continue</string>
+    <string name="enter_email">Enter email</string>
+    <string name="your_new_password_must_be_different_form_previous_used_passwords">Your new password must be different form previous used passwords</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="enter_username">Enter username</string>
+    <string name="save_changes">SAVE changes</string>
+    <string name="date_of_barth">Date of barth</string>
+    <string name="dollar">$</string>
+    <string name="_0_0">0.0</string>
+    <string name="price">Price:</string>
+    <string name="origin">Origin</string>
+    <string name="origin_ed">Origin:</string>
+    <string name="view_card">View Card</string>
+    <string name="ingredients">ingredients:</string>
+    <string name="ingredients_ed">Ingredients:</string>
+    <string name="name">Name</string>
+    <string name="rating">Rating:</string>
+    <string name="baraa_riffi">Baraa Riffi</string>
+    <string name="baraarifi_gmail_com">BaraaRifi@gmail.com</string>
+    <string name="edite_profile">Edite Profile</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="preferences">preferences</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="privacy_and_security">privacy and security</string>
+    <string name="about">About</string>
+    <string name="log_out">Log Out</string>
+    <string name="update_meals">Edite MEALS</string>
+    <string name="enter_ingredients">Enter details</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_origin">Enter origin</string>
+    <string name="update">update</string>
+    <string name="add_meals">Add Meals</string>
+    <string name="add_rest">ADD Restaurants</string>
+    <string name="add">ADD</string>
+    <string name="my_favourite">My Favourite</string>
+    <string name="lets_eat">Lets eat</string>
+    <string name="delicious_food">Delicious Food</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="drink">Drink</string>
+    <string name="healthy_food">Healthy Food</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="cart">Cart</string>
+    <string name="night_mode">Normal mode</string>
+    <string name="setting">Setting</string>
+    <string name="about_us">About us</string>
+    <string name="delete">Delete</string>
+    <string name="arabic">Arabic</string>
+    <string name="remember_me">Remember me</string>
+    <string name="remember_me_next">Do you want to be remembered next time?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="later">Later..</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="error">Error!</string>
+    <string name="fail_fields">Complete the fields!</string>
+    <string name="updated_successfully">Updated Successfully</string>
+    <string name="updated_filed">Updated Filed!</string>
+    <string name="password_must_be">Password must be more than 8 characters!</string>
+    <string name="Password_does_not">Password does not match!</string>
+    <string name="enter_alid_email">Enter valid Email!</string>
+    <string name="complete_the_fields">Complete the fields!</string>
+    <string name="password_has_been_reset">Password has been reset</string>
+    <string name="reset_password_Filed">Reset password Filed!</string>
+    <string name="verify_successfully">verify successfully</string>
+    <string name="verify_filed">verify filed!</string>
+    <string name="pin_code_must">Pin code must be 4 numbers!</string>
+    <string name="logout_successfully">Log out successfully</string>
+    <string name="please_restart_your_app">Please restart your app</string>
+    <string name="you_are_registered">You are registered in the application</string>
+    <string name="error_during">Error during the login process!</string>
+    <string name="added_Filed">Added Filed!</string>
+    <string name="added_Successfully">Added Successfully</string>
+    <string name="delete_meals">Delete Meals</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="deleted_successfully">Deleted successfully</string>
+    <string name="enter_meal_name">ُEnter meal name</string>
+    <string name="drinks">Drinks</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="discount_put_zero_if_there_is_no_discount">discount (Put zero if there is no discount)</string>
+    <string name="my_cart">My Cart</string>
+    <string name="discount">discount:</string>
+    <string name="ok">OK</string>
+
+    <string name="Burger">Burger</string>
+    <string name="ground_lean_beef_tablespoon">ground lean beef,tablespoon</string>
+    <string name="romans">Romans</string>
+
+    <string name="pizza">Pizza</string>
+    <string name="flour_100_gm">flour,100 gm processed cheese</string>
+    <string name="italy">Italy</string>
+    <string name="spaghetti">spaghetti</string>
+    <string name="medium_yellow_onion">medium yellow onion,oregano</string>
+
+    <string name="chicken">chicken</string>
+    <string name="chicken_in">boneless chicken,Chilli flakes</string>
+    <string name="chicken_or">Texas</string>
+
+    <string name="quinoa">quinoa</string>
+    <string name="quinoa_in">quinoa soffit,radicchio</string>
+    <string name="quinoa_or">USA</string>
+
+    <string name="salad">salad</string>
+    <string name="salad_in">tomatoes,potatoes,lemon</string>
+    <string name="salad_or">World</string>
+
+    <string name="coffee">coffee</string>
+    <string name="coffee_in">Water,coffee</string>
+    <string name="coffee_or">Africa</string>
+
+    <string name="cold_coffee">cold coffee</string>
+    <string name="cold_coffee_in">Water,coffee,ice</string>
+    <string name="cold_coffee_or">Italy</string>'
+
+    <string name="watermelon">watermelon</string>
+    <string name="watermelon_in">Water,watermelon,ice</string>
+    <string name="watermelon_or">World</string>
+
+    <string name="privacy_policy">A privacy policy is legally required for all websites that collect user data. It needs to include how you manage that data, store it, keep it secure, and use it.\n
+A complete privacy policy for websites and mobile apps is a business necessity you can’t ignore.\n
+How to write a privacy policy for your website depends on where your customers live and what services \n you use on your website. You can write it yourself, use a generator, or seek legal counsel.</string>
+    <string name="this_account_already_exists">This account already exists!</string>
+    <string name="this_meal_already_exists">This mael already exists!</string>
+    <string name="the_discount_is_greater">The discount is greater than the price</string>
+    <string name="you_must_be_grater_than_18_years">You must be grater than 18 years</string>
+    <string name="about_us_title">This application was created for the final project of the Smart Device Applications course
+        Owner of this application:\n Baraa Mohammed Riffi</string>
+    <string-array name="spanner">
+        <item>Fast Food</item>
+        <item>Healthy Food</item>
+        <item>Drinks</item>
+    </string-array>
+    <string name="title_activity_admin_main">AdminMainActivity</string>
+    <string name="title_restaurants">restaurants</string>
+    <string name="title_meals">meals</string>
+    <string name="title_Restaurant_statistics">Rest stats</string>
+    <string name="title_Meal_stats">Meal stats</string>
+    <string name="title_map">Map</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+
+</resources>
